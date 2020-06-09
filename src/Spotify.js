@@ -1,7 +1,7 @@
-import SpotifyWrapper from 'spotify-wrapper'
+import SpotifyWrapper from 'spotify-wrapper';
 
 const spotify = new SpotifyWrapper({
-    token: 'TOKEN'
-})
+  token: 'TOKEN',
+});
 
-export default spotify
+export default spotify;
