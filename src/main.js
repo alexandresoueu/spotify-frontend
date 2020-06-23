@@ -13,4 +13,3 @@ albums
 
 album
   .then(data => renderAlbumInfo(data, albumListInfo));
-  
