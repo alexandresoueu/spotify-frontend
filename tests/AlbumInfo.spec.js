@@ -30,11 +30,11 @@ describe('AlbumInfo', () => {
             },
         }
 
-    const markup = `
-    <img src="https://i.scdn.co/image/59a536f0bf0ddaa427e4c732a061c33fe7578757" alt="The Essential Incubus" class="album-image">
-    <p class="album-title">The Essential Incubus</p>
-    <p class="album-artist">Incubus</p>
-    <p class="album-counter">18 musics</p>`
+  const markup = `
+  <img src="https://i.scdn.co/image/59a536f0bf0ddaa427e4c732a061c33fe7578757" alt="The Essential Incubus" class="album-image">
+  <p class="album-title">The Essential Incubus</p>
+  <p class="album-artist">Incubus</p>
+  <p class="album-counter">18 musics</p>`
 
     it('should be exist AlbumInfo', () => {
         expect(renderAlbumInfo).to.exist
