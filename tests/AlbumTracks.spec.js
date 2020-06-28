@@ -1,6 +1,7 @@
 import 'jsdom-global/register'
 import { expect } from 'chai'
 import renderAlbumTracks from '../src/AlbumTracks'
+import renderConvertToHumanTime from '../src/ConvertToHumanTime'
 
 describe('AlbumTracks', () => {
 
@@ -32,19 +33,19 @@ describe('AlbumTracks', () => {
   <div class="music" data-track-preview="">
     <p class="music-number">1</p>
     <p class="music-title">Bubba</p>
-    <p class="music-duration">238733</p>
+    <p class="music-duration">${renderConvertToHumanTime(238733)}</p>
   </div>`
 
   const markupTwo = `
   <div class="music" data-track-preview="">
     <p class="music-number">1</p>
     <p class="music-title">Bubba</p>
-    <p class="music-duration">238733</p>
+    <p class="music-duration">${renderConvertToHumanTime(238733)}</p>
   </div>
   <div class="music" data-track-preview="">
     <p class="music-number">2</p>
     <p class="music-title">Nemo</p>
-    <p class="music-duration">238735</p>
+    <p class="music-duration">${renderConvertToHumanTime(238735)}</p>
   </div>`
 
   it('Should be exist AlbumTracks', () => {

@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import renderConvertToHumanTime from '../src/ConvertToHumanTime'
 
-describe.only('Convert to Human Time', () => {
+describe('Convert to Human Time', () => {
   it('Should be exist renderConvertToHumanTime', () => {
     expect(renderConvertToHumanTime).to.be.exist
   })
