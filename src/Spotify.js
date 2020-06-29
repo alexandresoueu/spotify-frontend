@@ -1,7 +1,7 @@
 import SpotifyWrapper from 'spotify-wrapper';
 
 const spotify = new SpotifyWrapper({
-  token: 'BQCeYfDVjziwMW1dTQlnCw_q75sbLn8gRc77k24PKteFDATEgpNTXCXAOZgvZY05jAATWykUUYP4-tz-4fWc2RXKFrLaL7Z_58WVMBY54vray-yeeOmCdvr5f0u0X_qlgzfNULyfT9d6inwmSM6NNpocOKVF5ARfWykU6A',
+  token: 'BQDIBJ_NfzPS4TAa-z0AIXVjmCtVDr395qxhAs5YCa6ORYx3fX0Z6SHd_xf-1rtveP1XEA0iOSkBBOe95CgtytiT36v63lOdQ_OftpShSNasKH9-y76LOSNfQkEM5mSPvORUSeWshPyZnajXlEHqp4gJ7SVG-1zR8P08Wg',
 });
 
 export default spotify;
