@@ -2,7 +2,7 @@ import spotify from './Spotify';
 import renderAlbumInfo from './AlbumInfo';
 import renderAlbumTracks from './AlbumTracks';
 
-const listAlbums = document.getElementById('album-list')
+const listAlbums = document.getElementById('album-list');
 const albumListInfo = document.getElementById('album-info');
 const albumTracks = document.getElementById('album-tracks');
 
@@ -13,8 +13,8 @@ function makeRequest(albumId) {
 }
 
 export default function selectAlbumTrigger() {
-  listAlbums.addEventListener('click', (e) =>  {
+  listAlbums.addEventListener('click', (e) => {
     const target = e.target;
     makeRequest(target.getAttribute('data-album-id'));
   });
-};
+}
